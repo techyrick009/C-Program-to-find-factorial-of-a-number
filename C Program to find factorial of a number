@@ -1,0 +1,45 @@
+
+/*
+ *  Author: Techyrick.com
+ */
+
+#include<stdio.h> 
+//#include 
+
+
+
+void main() {
+
+int number;
+int i;
+unsigned long factorial = 1;
+  
+
+//clrscr();
+
+    printf("C Program Calculate Factorial of entered number.");
+
+    printf("\n\n Enter Number : ");
+    scanf("%i", &number);
+
+    
+
+     
+     
+  //Logic factorial
+
+  for (i = 1; i <= number ; i++) {
+      factorial = factorial * i;    
+  }
+  
+  printf("\n\n %d! = %lu",number,factorial);
+    
+   
+  
+
+//getch();
+
+
+
+}
+
